@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+
+
+body{
+    background: darkblue;
+    padding: 100px;
+}
+
+
+
+
+
+
+
+
+.table{
+    width: 70%;
+    margin: 
+    auto;
+    border-collapse: collapse;
+}
+.table th,
+.table td{
+    border: 1px solid #fff;
+padding: 10px;  
+color: #fff;  
+}
+.table th{
+    color: midnightblue;
+background-color: slateblue;
+text-align: left;
+}
+/* odd = har toq childga */
+/* even = har juft childga */
+.table tbody tr:nth-child(even){
+    background: slateblue;
+}
